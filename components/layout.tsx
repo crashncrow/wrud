@@ -1,5 +1,4 @@
 import Head from 'next/head'
-
 import styles from './layout.module.css'
 
 export const siteTitle = 'What are you doing? - WRUD'
@@ -14,9 +13,6 @@ const Layout = ({ children }) => {
 				<meta name="og:title" content={siteTitle} />
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="robots" content="noindex" />
-
-				{/* PINTEREST */}
-				<script async defer data-pin-hover="true" data-pin-tall="true" src="//assets.pinterest.com/js/pinit.js"></script>
 			</Head>
 
 			<div id="logo">

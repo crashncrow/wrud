@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 
 // Components
-// import Tweet from '../components/Tweet/Tweet'
+import Timeline from '../components/Timeline/Timeline'
 
 const Home = () => {
 	return (
@@ -12,6 +12,7 @@ const Home = () => {
 				<title>{siteTitle}</title>
 			</Head>
 
+			<Timeline />
 		</Layout>
 	)
 }
